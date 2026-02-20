@@ -1,0 +1,95 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\graphicspath{{figuras/}}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\setminted{
+	linenos,
+	breaklines,
+	fontsize=\normal,
+	numbersep=6pt,
+	xleftmargin=2.2em
+}
+
+
+
+\title{Introdução à Programação em Java}
+\subtitle{Conceitos Básicos}
+\author{Angelo Alfredo Hafner}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Visão geral}
+
+\begin{frame}{Onde o java é diferente?}
+\centering
+\includegraphics[width=15cm]{Fluxo_java.png}
+\end{frame}
+
+\begin{frame}{Onde Java é utilizado}
+\centering
+\includegraphics[height=7cm]{Utilizacao_java.png}
+\end{frame}
+
+\section{Ambiente de desenvolvimento}
+
+\begin{frame}{O que precisa ser instalado}
+\centering
+\includegraphics[height=5cm]{O_que_instalar_java.png}
+\end{frame}
+
+\begin{frame}{Como funciona um programa Java}
+\centering
+\includegraphics[height=5cm]{Como_funciona_um_programa_java.png}
+\end{frame}
+
+\section{Estrutura básica}
+
+\begin{frame}{Estrutura básica de um programa Java}
+\centering
+\includegraphics[height=7cm]{Estrutura_basica_de_um_programa_java.png}
+\end{frame}
+
+\section{Exercício}
+
+\begin{frame}[fragile]{Exercício 01 — Hello World}
+\begin{minted}[
+	fontsize=\Large
+	]{java}
+// Exercise 01: Hello world
+// Goal: Print a greeting message to the console.
+public class Exercise01_Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+        System.out.println("This is Exercise 01.");
+    }
+}
+\end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Como compilar e executar}
+	\centering
+	\includegraphics[height=6cm]{Como_compilar_e_executar_java.png}
+\end{frame}
+
+\begin{frame}{Desafio: experimente e descubra}
+	\centering
+	\includegraphics[height=7cm]{Desafio_mude_o_texto.png}
+\end{frame}
+
+\end{document}

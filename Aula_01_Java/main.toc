@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{Visão geral}{2}{0}{1}
+\beamer@sectionintoc {2}{Ambiente de desenvolvimento}{4}{0}{2}
+\beamer@sectionintoc {3}{Estrutura básica}{6}{0}{3}
+\beamer@sectionintoc {4}{Exercício}{7}{0}{4}
